@@ -1,0 +1,36 @@
+body {
+  background-color: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a[class*="btn"] {
+  cursor: pointer;
+}
+
+a[class*="btn"]:hover {
+  opacity: 0.8;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.page {
+  margin-top: 100px;
+  padding: 40px;
+}
+
+@font-face {
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Poppins ExtraBold'), url('../public/assets/fonts/Poppins-ExtraBold.woff') format('woff');
+}
