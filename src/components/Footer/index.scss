@@ -1,0 +1,88 @@
+.footer {
+  background: #2E2E2E;
+
+  .footer-content {
+    padding: 0 28px 0 40px;
+    display: flex;
+    align-items: center;
+    height: 153px;
+    justify-content: space-between;
+
+    img {
+      width: 195px;
+      height: 47px;
+    }
+
+    .footer-buttons {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 30px 100px;
+
+      font-family: "poppins";
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      font-style: normal;
+      text-align: center;
+      color: #929292;
+    }
+
+    .footer-social {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+       .btn-dark-mode {
+         background: url("../../../public/assets/images/ic_dark_mode.svg") no-repeat center;
+         background-size: 36px 19px;
+         width: 36px;
+         height: 19px;
+         margin-right: 12px;
+       }
+
+      .btn-facebook {
+        background: url("../../../public/assets/images/ic_facebook.svg") no-repeat center;
+        background-size: 10px 19px;
+        width: 10px;
+        height: 19px;
+      }
+
+      .btn-instagram {
+        background: url("../../../public/assets/images/ic_instagram.svg") no-repeat center;
+        background-size: 17px 17px;
+        width: 17px;
+        height: 17px;
+      }
+
+      .btn-twitter {
+        background: url("../../../public/assets/images/ic_twitter.svg") no-repeat center;
+        background-size: 22px 18px;
+        width: 22px;
+        height: 18px;
+      }
+
+      .btn-discord {
+        background: url("../../../public/assets/images/ic_discord.svg") no-repeat center;
+        background-size: 22px 17px;
+        width: 22px;
+        height: 17px;
+      }
+    }
+  }
+
+  .copyright {
+    display: flex;
+    align-items: center;
+    height: 52px;
+    justify-content: space-between;
+    border-top: 1px solid #ffffff;
+    padding: 20px 40px;
+
+    font-family: "poppins";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    font-style: normal;
+    color: #929292;
+  }
+}

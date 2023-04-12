@@ -17,7 +17,7 @@ const Header = () => {
           </a>
         </div>
 
-        <div className="menu">
+        <div className="header-menu">
           <a>HOME</a>
           <a>EXPLORE</a>
           <a>RANKINGS</a>

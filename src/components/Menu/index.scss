@@ -1,0 +1,193 @@
+.menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 450px;
+  background: #000000;
+  z-index: 99;
+  color: white;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      border-bottom: 1px solid white;
+      height: 92px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      a {
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        font-family: "poppins";
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 17px;
+        font-style: normal;
+        text-align: left;
+
+        &:before {
+          content: '';
+          width: 63px;
+          height: 63px;
+        }
+      }
+    }
+
+    li:first-child {
+      height: 100px;
+      justify-content: end;
+      gap: 35px;
+      padding-right: 40px;
+
+      a {
+        flex: initial;
+        padding-left: 0;
+
+        &:before {
+          content: initial;
+        }
+      }
+
+      .btn-notice {
+        width: 31px;
+        height: 32px;
+        background: url('../../../public/assets/images/ic_noti.svg') no-repeat center;
+        background-size: 31px 32px;
+      }
+
+      .btn-profile {
+        width: 47px;
+        height: 47px;
+        background: #caf22f;
+        border-radius: 50%;
+      }
+    }
+
+    .btn-metamask-wallet {
+      flex: 1;
+
+      label {
+        display: flex;
+        flex-direction: column;
+
+        span {
+          font-family: "poppins";
+          font-size: 9px;
+          font-weight: 300;
+          line-height: 9px;
+          font-style: normal;
+          color: #ffffff;
+          margin-top: 7px;
+        }
+      }
+
+      &:before {
+        background: url('../../../public/assets/images/ic_menu_metamask.svg') no-repeat center;
+        background-size: 49px 49px;
+      }
+    }
+
+    .btn-menu-profile {
+      flex: 1;
+
+      &:before {
+        background: url('../../../public/assets/images/ic_menu_profile.svg') no-repeat center;
+        background-size: 25px 30px;
+      }
+    }
+
+    .btn-menu-collections {
+      flex: 1;
+
+      &:before {
+        background: url('../../../public/assets/images/ic_menu_collections.svg') no-repeat center;
+        background-size: 27px 30px;
+      }
+    }
+
+    .btn-menu-activity {
+      flex: 1;
+      &:before {
+        background: url('../../../public/assets/images/ic_menu_activity.svg') no-repeat center;
+        background-size: 30px 31px;
+      }
+    }
+
+    .btn-menu-following {
+      flex: 1;
+
+      &:before {
+        background: url('../../../public/assets/images/ic_menu_following.svg') no-repeat center;
+        background-size: 32px 25px;
+      }
+    }
+
+    .btn-menu-saved {
+      flex: 1;
+
+      &:before {
+        background: url('../../../public/assets/images/ic_menu_saved.svg') no-repeat center;
+        background-size: 22px 22px;
+      }
+    }
+
+    .btn-menu-settings {
+      flex: 1;
+
+      &:before {
+        background: url('../../../public/assets/images/ic_menu_settings.svg') no-repeat center;
+        background-size: 30px 30px;
+      }
+    }
+
+    .btn-menu-language {
+      flex: 1;
+
+      &:before {
+        background: url('../../../public/assets/images/ic_menu_language.svg') no-repeat center;
+        background-size: 30px 30px;
+      }
+    }
+
+    .btn-menu-darkmode {
+      padding-left: 28px;
+
+      &:before {
+        background: url('../../../public/assets/images/ic_dark_mode.svg') no-repeat center;
+        background-size: 72px 38px;
+        width: 90px;
+      }
+    }
+
+    .btn-logout {
+      position: absolute;
+      left: 45px;
+      bottom: 42px;
+      width: 154px;
+      height: 44px;
+      border-radius: 26px;
+      background: #e7323b;
+      font-family: "poppins";
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 44px;
+      font-style: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .btn-copy {
+      width: 25px;
+      height: 30px;
+      margin-right: 38px;
+      background: url('../../../public/assets/images/ic_copy.svg') no-repeat center;
+      background-size: 25px 30px;
+    }
+  }
+}
